@@ -3229,7 +3229,6 @@ a:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
-```css
 .google-login-btn {
   width: 100%;
   min-height: 48px;
