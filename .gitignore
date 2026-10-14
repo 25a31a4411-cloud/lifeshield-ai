@@ -1,0 +1,23 @@
+
+# Python virtual environments
+.venv/
+**/.venv/
+venv/
+
+# Node dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Secret files
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Vercel local configuration
+.vercel/
