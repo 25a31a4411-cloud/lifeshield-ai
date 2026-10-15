@@ -26,6 +26,9 @@ const supabase =
   SUPABASE_URL && SUPABASE_ANON_KEY
     ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
     : null;
+console.log("Supabase URL:", SUPABASE_URL);
+console.log("Supabase key present:", Boolean(SUPABASE_ANON_KEY));
+console.log("Supabase key prefix:", SUPABASE_ANON_KEY.slice(0, 4));
 
 const INITIAL_PROFILE = {
   age: 32,
